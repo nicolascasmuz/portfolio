@@ -1,0 +1,53 @@
+.section-portfolio {
+  display: grid;
+  justify-content: center;
+  gap: 55px;
+  font-family: "Roboto Slab";
+  color: #fafafa;
+  padding: 70px 30px;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio {
+    grid-template-columns: auto auto;
+    padding: 70px 60px;
+  }
+}
+
+@media (min-width: 1089px) {
+  .section-portfolio {
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+  }
+}
+
+.section-portfolio__container {
+  max-width: 515px;
+  min-width: 315px;
+}
+
+.section-portfolio__img {
+  width: 100%;
+  padding: 0 65px;
+  margin-bottom: 10px;
+}
+
+.section-portfolio__h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  margin: 0;
+}
+
+.section-portfolio__p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.section-portfolio__a {
+  text-decoration: overline;
+  color: #2ad8c4;
+  font-size: 18px;
+}

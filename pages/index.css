@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header__menu-lista li a:first-child {
+  color: #de7e41;
+}
+
+.welcome {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../resources/fondo01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.welcome__section-below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+.welcome__title {
+  font-size: 35px;
+  font-weight: 800;
+  min-width: 315px;
+  margin: 0;
+}
+
+.welcome__title-span {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  min-width: 315px;
+  margin: 0;
+}
+
+.section-services {
+  background-color: #141414;
+}
+
+.footer {
+  background-color: #ffb05c;
+}

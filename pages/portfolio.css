@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header__menu-lista li a:first-child {
+  color: #2ad8c4;
+}
+
+.portfolio-top {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../resources/fondo03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top {
+    height: 100vh;
+  }
+}
+
+.portfolio-top__below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top__below {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 135px 0px 0px 30px;
+  }
+}
+
+.portfolio-top__title {
+  font-size: 30px;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top__title {
+    font-size: 60px;
+  }
+}
+
+.section-portfolio {
+  background-color: #01241d;
+}
+
+.footer {
+  background-color: #fafafa;
+}

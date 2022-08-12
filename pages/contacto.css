@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.footer {
+  background-color: #141414;
+}
+
+.footer__logo {
+  filter: invert();
+}
+
+.footer__social-media-name {
+  filter: invert();
+}
