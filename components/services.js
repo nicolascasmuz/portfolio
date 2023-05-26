@@ -22,7 +22,7 @@ function getData() {
     .then((data) => {
       for (let i = 0; i < data["items"].length; i++) {
         const service = {
-          img: data.includes.Asset[i].fields.file.url,
+          img: data.items[i].fields.img,
           h3: data.items[i].fields.nombre,
           p: data.items[i].fields.descripcion,
         };

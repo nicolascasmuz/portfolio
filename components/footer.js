@@ -5,18 +5,6 @@ function footerComp(footer) {
   <img src="./resources/logo-portfolio.png" alt="" class="footer__logo" />
   <div class="footer__social-media-container">
     <a
-      href="https://www.instagram.com/nicolasfcasmuz/"
-      class="footer__social-media-link"
-    >
-      <img
-        src="./resources/instagram.png"
-        class="footer__social-media-logo"
-      />
-      <label class="footer__social-media-name" for="instagram"
-        >Instagram</label
-      >
-    </a>
-    <a
       href="https://www.linkedin.com/in/nicolascasmuz/"
       class="footer__social-media-link"
     >
