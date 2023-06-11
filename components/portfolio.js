@@ -2,6 +2,7 @@ function addServices(project = {}) {
   const templateEl = document.querySelector("#template-portfolio");
   const projectEl = document.querySelector(".section-portfolio");
 
+  templateEl.content.querySelector(".section-portfolio__img").src = project.pic;
   templateEl.content.querySelector(".section-portfolio__h3").textContent =
     project.h3;
   templateEl.content.querySelector(".section-portfolio__p").textContent =
@@ -22,6 +23,7 @@ function getData() {
     .then((data) => {
       for (let i = 0; i < data["items"].length; i++) {
         const project = {
+          pic: data.items[i].fields.pic,
           h3: data.items[i].fields.nombre,
           p: data.items[i].fields.descripcion,
           a: data.items[i].fields.link,
