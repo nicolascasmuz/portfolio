@@ -2,7 +2,7 @@ function footerComp(footer) {
   const addEl = document.createElement("div");
 
   addEl.innerHTML = `<footer class="footer">
-  <img src="./resources/logo-portfolio.png" alt="" class="footer__logo" />
+  <img src="./resources/logo-lg7.png" alt="" class="footer__logo" />
   <div class="footer__social-media-container">
     <a
       href="https://www.linkedin.com/in/nicolascasmuz/"

@@ -3,7 +3,7 @@ function headerComp(header) {
 
   addEl.innerHTML = `<header class="header">
   <a href="./index.html" class="header__logo-a">
-    <img src="./resources/logo-portfolio.png" alt="" class="header__logo"
+    <img src="./resources/logo-lg7.png" alt="logo-portfolio" class="header__logo"
   /></a>
   <input class="header__menu-input" type="checkbox" id="check" />
   <label for="check" class="header__menu-label">

@@ -2,7 +2,7 @@
   display: grid;
   justify-content: center;
   gap: 55px;
-  font-family: "Roboto Slab";
+  font-family: "Montserrat", sans-serif;
   color: #fafafa;
   padding: 70px 30px;
 }
