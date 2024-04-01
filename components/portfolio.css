@@ -1,5 +1,6 @@
 .section-portfolio {
   display: grid;
+  grid-template-rows: auto auto;
   justify-content: center;
   gap: 55px;
   font-family: "Montserrat", sans-serif;
@@ -21,27 +22,48 @@
   }
 }
 
+.section-portfolio__service {
+  grid-column: 1 / -1; /* Ocupa todas las columnas */
+  grid-row: 1; /* Está en la primera fila */
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  min-width: 315px;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__service {
+    text-align: left;
+  }
+}
+
 .section-portfolio__container {
+  display: grid;
   max-width: 515px;
   min-width: 315px;
 }
 
 .section-portfolio__img {
+  justify-self: center;
+  align-self: center;
   height: 150px;
   margin-bottom: 10px;
 }
 
 .section-portfolio__h3 {
+  justify-self: center;
+  align-self: center;
   font-size: 24px;
   font-weight: 600;
-  text-align: right;
+  text-align: center;
   margin: 0;
 }
 
 .section-portfolio__p {
   font-size: 16px;
   font-weight: 300;
-  text-align: right;
+  text-align: left;
   margin-bottom: 25px;
 }
 

@@ -24,7 +24,9 @@
 }
 
 .header__logo:hover {
-  height: 75px;
+  height: 60px;
+  transform: scale(1.5);
+  transform-origin: center;
 }
 
 @media (min-width: 769px) {
@@ -115,5 +117,5 @@
 }
 
 .header__option:hover {
-  opacity: 65%;
+  opacity: 50%;
 }
