@@ -3,7 +3,9 @@
   justify-content: center;
   align-content: center;
   gap: 25px;
-  background-color: #2c0c19;
+  background-image: linear-gradient(rgb(2 31 39 / 95%), rgb(2 31 39 / 95%)),
+    url("../resources/fondo-textura-abstracta.jpeg");
+  background-size: cover;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   padding: 70px 30px;

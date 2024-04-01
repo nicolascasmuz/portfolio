@@ -12,7 +12,7 @@ body {
 
 .portfolio-top {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../resources/fondo03.png");
+  background-image: url("../resources/fondo03_green.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .section-portfolio {
-  background-color: #01241d;
+  background-color: #03342b;
 }
 
 .footer {

@@ -1,4 +1,4 @@
-function footerComp(footer) {
+function footer2Comp(footer) {
   const addEl = document.createElement("div");
 
   addEl.innerHTML = `<footer class="footer">
@@ -9,7 +9,7 @@ function footerComp(footer) {
       class="footer__social-media-link"
     >
       <img
-        src="./resources/linkedin_whiteborder.png"
+        src="./resources/linkedin.png"
         class="footer__social-media-logo"
       />
       <label class="footer__social-media-name" for="linkedin"
@@ -21,7 +21,7 @@ function footerComp(footer) {
       class="footer__social-media-link"
     >
       <img
-        src="./resources/instagram_whiteborder.png"
+        src="./resources/instagram.png"
         class="footer__social-media-logo"
       />
       <label class="footer__social-media-name" for="linkedin"
@@ -32,7 +32,7 @@ function footerComp(footer) {
       href="https://github.com/nicolascasmuz"
       class="footer__social-media-link"
     >
-      <img src="./resources/github_whiteborder.png" class="footer__social-media-logo" />
+      <img src="./resources/github.png" class="footer__social-media-logo" />
       <label class="footer__social-media-name">Github</label>
     </a>
   </div>

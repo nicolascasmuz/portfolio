@@ -12,7 +12,7 @@ body {
 
 .services-top {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../resources/fondo02.png");
+  background-image: url("../resources/fondo02_red.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .section-services {
-  background-color: #04404f;
+  background-color: #4a1623;
 }
 
 .footer {

@@ -20,6 +20,11 @@
 .header__logo {
   height: 45px;
   margin-left: 15px;
+  transition: all 0.5s ease-out;
+}
+
+.header__logo:hover {
+  height: 75px;
 }
 
 @media (min-width: 769px) {
@@ -106,4 +111,9 @@
   text-decoration: none;
   font-size: 24px;
   font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+
+.header__option:hover {
+  opacity: 65%;
 }

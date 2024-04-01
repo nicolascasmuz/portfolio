@@ -1,6 +1,6 @@
 function main() {
   headerComp(document.querySelector(".header-comp"));
-  footerComp(document.querySelector(".footer-comp"));
+  footer2Comp(document.querySelector(".footer-comp"));
   getData();
 }
 
