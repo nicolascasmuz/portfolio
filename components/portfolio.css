@@ -1,4 +1,6 @@
-.section-portfolio {
+.section-dev,
+.section-av,
+.section-graph {
   display: grid;
   grid-template-rows: auto auto;
   justify-content: center;
@@ -9,14 +11,18 @@
 }
 
 @media (min-width: 769px) {
-  .section-portfolio {
+  .section-dev,
+  .section-av,
+  .section-graph {
     grid-template-columns: auto auto;
     padding: 70px 60px;
   }
 }
 
 @media (min-width: 1089px) {
-  .section-portfolio {
+  .section-dev,
+  .section-av,
+  .section-graph {
     grid-template-columns: auto auto auto;
     gap: 40px;
   }
@@ -49,6 +55,27 @@
   align-self: center;
   height: 150px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__img {
+    height: 200px;
+  }
+}
+
+.section-portfolio__video {
+  justify-self: center;
+  align-self: center;
+  width: 280px;
+  height: 157px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__video {
+    width: 350px;
+    height: 197px;
+  }
 }
 
 .section-portfolio__h3 {

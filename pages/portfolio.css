@@ -51,7 +51,9 @@ body {
   }
 }
 
-.section-portfolio {
+.section-dev,
+.section-av,
+.section-graph {
   background-color: #03342b;
 }
 
