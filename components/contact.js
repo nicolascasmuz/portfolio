@@ -36,15 +36,15 @@ function contactComp(form) {
       mensaje: input.target.mensaje.value,
     };
 
-    fetch("http://localhost:3500" + "/send-mail", {
-      method: "post",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(request),
-    }).then(() => {
-      console.log("request: ", request);
-    });
+    var serviceID = "service_x4rxz34";
+    var templateID = "template_59wi05r";
+
+    try {
+      await emailjs.send(serviceID, templateID, request);
+      alert("¡Gracias por contactarme, te responderé a la brevedad!");
+    } catch (err) {
+      console.error(err);
+    }
   });
 
   form.appendChild(addEl);
