@@ -27,7 +27,7 @@ function contactComp(form) {
   </section>`;
 
   const formEl = addEl.querySelector(".section-form__form");
-  formEl.addEventListener("submit", (input) => {
+  formEl.addEventListener("submit", async (input) => {
     input.preventDefault();
 
     const request = {
@@ -36,16 +36,15 @@ function contactComp(form) {
       mensaje: input.target.mensaje.value,
     };
 
-    fetch("https://apx-api.vercel.app/api/utils/dwf", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: {
-        to: "nicolascasmuz@hotmail.com",
-        message: request,
+    fetch("http://localhost:3500" + "/send-mail", {
+      method: "post",
+      headers: {
+        "content-type": "application/json",
       },
-    }).then(() =>
-      alert("¡Gracias por contactarme, te responderé a la brevedad!")
-    );
+      body: JSON.stringify(request),
+    }).then(() => {
+      console.log("request: ", request);
+    });
   });
 
   form.appendChild(addEl);
