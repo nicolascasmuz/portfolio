@@ -35,6 +35,13 @@ function footer2Comp(footer) {
       <img src="./resources/github.png" class="footer__social-media-logo" />
       <label class="footer__social-media-name">Github</label>
     </a>
+    <a
+      href="https://www.youtube.com/@LG7multimedia-en9pi"
+      class="footer__social-media-link"
+    >
+      <img src="./resources/youtube.png" class="footer__social-media-logo" />
+      <label class="footer__social-media-name">YouTube</label>
+    </a>
   </div>
 </footer>`;
 
