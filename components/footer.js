@@ -36,7 +36,7 @@ function footerComp(footer) {
       <label class="footer__social-media-name">Github</label>
     </a>
     <a
-      href="https://www.youtube.com/@LG7multimedia-en9pi"
+      href="https://www.youtube.com/@LG7multimedia"
       class="footer__social-media-link"
     >
       <img src="./resources/youtube_whiteborder.png" class="footer__social-media-logo" />
