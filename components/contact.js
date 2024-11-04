@@ -36,7 +36,7 @@ function contactComp(form) {
       mensaje: input.target.mensaje.value,
     };
 
-    var serviceID = "service_x4rxz34";
+    var serviceID = "service_tdt2mu9";
     var templateID = "template_59wi05r";
 
     try {
