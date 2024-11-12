@@ -43,6 +43,7 @@ body {
 
 .services-top__title {
   font-size: 30px;
+  background: #e74c3c65;
 }
 
 @media (min-width: 769px) {

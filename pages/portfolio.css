@@ -43,6 +43,7 @@ body {
 
 .portfolio-top__title {
   font-size: 30px;
+  background: #2ad8c465;
 }
 
 @media (min-width: 769px) {

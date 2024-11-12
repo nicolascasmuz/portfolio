@@ -29,8 +29,8 @@
 }
 
 .section-portfolio__service {
-  grid-column: 1 / -1; /* Ocupa todas las columnas */
-  grid-row: 1; /* Está en la primera fila */
+  grid-column: 1 / -1;
+  grid-row: 1;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -42,6 +42,14 @@
   .section-portfolio__service {
     text-align: left;
   }
+}
+
+.section-portfolio__subtitle {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
 }
 
 .section-portfolio__container {
